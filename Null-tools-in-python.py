@@ -1,8 +1,8 @@
 import random
 import os
 import webbrowser
-print("\033[1;32")
-Os.system("clear") 
+os.system("clear") 
+print("\033[1;32") 
 
 a =input("mmodule: ")
 
