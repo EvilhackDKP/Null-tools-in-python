@@ -81,7 +81,7 @@ def open_lien():
 		webbrowser.open("https://github.com/EvilhackDKP")
 		webbrowser.open("https://f-droid.org/fr/")
 		webbrowser.open("")
-	        os.system("python3 Null-tools-in-python.py")
+	os.system("python3 Null-tools-in-python.py")
 	
 def time():	
 	if a == "time":
