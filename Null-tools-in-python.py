@@ -2,6 +2,7 @@ import random
 import os
 import webbrowser
 print("\033[1;32")
+Os.system("clear") 
 
 a =input("mmodule: ")
 
