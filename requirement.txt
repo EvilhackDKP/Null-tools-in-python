@@ -1,0 +1,5 @@
+pkg upgrade
+pkg update 
+pkg install git
+cd Null-tools-in-python 
+python3 Null-tools-in-python.py
