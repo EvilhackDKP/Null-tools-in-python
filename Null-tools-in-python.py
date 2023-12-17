@@ -1,3 +1,4 @@
+from hashlib import sha256
 import random
 import os
 import webbrowser
@@ -232,6 +233,26 @@ def simplecode():
 	c="".join(random.sample(n,b))
 
 	print(c)
+
+
+def xor():
+	entree = input("entree le nom du fichier a chiffrer : ")
+	sortie = input("entree le nom du fichier final :")
+	key = input("entree la clé :")
+	key = sha256(key.encode('utf-8')).digest()
+	with open(entree,'rb') as f_entree:
+    	with open(sortie,'wb') as f_sortie:
+       	 i = 0
+        	while f_entree.peek():
+            	c = ord(f_entree.read(1))
+           	 j = i % len(key)
+            	b = bytes ([cˆkey[j]])
+            	f_sortie.write(b)
+           	 i = i + 1 
+
+
+if a == "xor":
+	xor()
 
 
 
