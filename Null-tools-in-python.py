@@ -196,7 +196,7 @@ def calculator():
 
 
 if a == "calculator":
-	test()
+	calculator()
 	
 	
 if a == "time":
