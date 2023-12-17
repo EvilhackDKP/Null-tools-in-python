@@ -241,7 +241,7 @@ def xor():
 	key = input("entree la clé :")
 	key = sha256(key.encode('utf-8')).digest()
 	with open(entree,'rb') as f_entree:
-    	with open(sortie,'wb') as f_sortie:
+	with open(sortie,'wb') as f_sortie:
        	 i = 0
         	while f_entree.peek():
             	c = ord(f_entree.read(1))
