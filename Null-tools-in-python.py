@@ -236,7 +236,7 @@ def simplecode():
 
 
 
-def shifoumi():
+'''def shifoumi():
 	manches = int(input("Combien de manches voulez-vous jouer ? "))
 
 	score_joueur = 0
@@ -266,7 +266,7 @@ def shifoumi():
 	if score_joueur == manche:
 	  print("Vous avez gagné la partie !")
 	else:
-	  print("L'ordinateur gagne :(")
+	  print("L'ordinateur gagne :(")'''
 
 
 
