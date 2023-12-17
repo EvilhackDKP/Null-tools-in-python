@@ -92,7 +92,7 @@ def genvirus():
 	os.system("apt update ; apt install git -y ; git clone git://github.com/Ign0r3dH4x0r/GenVirus.git ; cd GenVirus ; bash GenVirus.sh")
 
 def calculator():
-	a =input("quelle est le type d'operation que vous voulais executer: ")
+	a =input("quelle est le type d'operation que vous voulez executer: ")
 
 	def addition():
 		aa =input("premier nombre: ")
