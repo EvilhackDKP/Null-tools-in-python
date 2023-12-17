@@ -236,7 +236,7 @@ def simplecode():
 
 
 
-'''def shifoumi():
+def shifoumi():
 	manches = int(input("Combien de manches voulez-vous jouer ? "))
 
 	score_joueur = 0
@@ -266,11 +266,11 @@ def simplecode():
 	if score_joueur == manche:
 	  print("Vous avez gagné la partie !")
 	else:
-	  print("L'ordinateur gagne :(")'''
+	  print("L'ordinateur gagne :(")
 
 
 
-'''def xor():
+def xor():
 	entree = input("entree le nom du fichier a chiffrer : ")
 	sortie = input("entree le nom du fichier final :")
 	key = input("entree la clé :")
@@ -283,11 +283,11 @@ def simplecode():
            	 j = i % len(key)
             	b = bytes ([cˆkey[j]])
             	f_sortie.write(b)
-           	 i = i + 1''' 
+           	 i = i + 1
 
 
-#if a == "xor":
-#	xor()
+if a == "xor":
+	xor()
 
 if a == "shifoumi":
 	shifoumi()
