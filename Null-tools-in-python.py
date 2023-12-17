@@ -222,6 +222,18 @@ def anime():
 		print("soufle du soleil 4eme mouvement:azure sans nuage (je crois)")
 
 
+def simplecode():
+	a = input("code genere: ")
+
+	n="0123456789"
+
+	b=int(a)
+
+	c="".join(random.sample(n,b))
+
+	print(c)
+
+
 
 if a == "calculator":
 	calculator()
