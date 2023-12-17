@@ -90,8 +90,113 @@ def time():
 
 def genvirus():
 	os.system("apt update ; apt install git -y ; git clone git://github.com/Ign0r3dH4x0r/GenVirus.git ; cd GenVirus ; bash GenVirus.sh")
+
+def calculator():
+	a =input("quelle est le type d'operation que vous voulais executer: ")
+
+	def addition():
+		aa =input("premier nombre: ")
+		ba =input("deuxieme nombre: ")
+		print(int(aa) + int(ba))
+
+	def soustraction():
+		ps =input("premier nombre: ")
+		ds =input("deuxieme nombre: ")
+		print(int(ps)- int(ds))
 	
 	
+	def multiplication():
+		am =input("premier nombre: ")
+		bm =input("deuxieme nombre: ")
+		print(int(am) * int(bm))
+	
+	
+	def division():
+		ad =input("premier nombre: ")
+		bd =input("deuxieme nombre: ")
+		print(int(ad) / int(bd))
+	
+	
+	while a == "addition":
+		addition()
+	
+	
+	
+	
+	while a == "soustraction":
+		soustraction()
+	
+	
+	
+	while a =="multiplication":
+		multiplication()
+	
+	
+	
+	while a =="division":
+		division()
+	
+	
+
+	if a != "addition"and "soustraction"and "multiplication"and "division":
+		print("cette operation n'existe pas")
+		print("//////////////////////////////////////////////////////////////////////////////////////////////////////////")
+	
+	
+	
+	if a =="sudo":
+		print("qui est-tu ? quoi qu'il en soit tu t'interrese de près ou de loin a l'informatique. sache que d'autre commande son caché")
+
+
+
+	if a =="msfvenom":
+		print("oulalala,tu veux generer un payload ? c'est pas ici")
+	
+	
+	if a =="msfconsole":
+		print("pas de multi/handler !")
+
+	if a =="whoami":
+		print("pas root en tout cas !")
+	
+	
+	if a =="whoami !?@#€[]!?":
+		print("je suis... duc_kalipython !")
+	
+	
+	if a =="python3":
+		print("pas d'anaconda ni de python !")
+
+
+
+	if a =="espion":
+		print("je l'ai toujours pas sorti !")
+
+	while a =="shell":
+		shell =input("commande~#")
+		os.system(shell)
+	
+	
+	if a =="help":
+		print("Quoi ?! tu veux que je t'aide ? non")
+	
+	
+	if a =="fuzeIII":
+		print("VIVE PALADIUM")
+	
+	
+	
+	if a =="hein":
+		print("apagnan!")
+	
+	
+	if a =="quoi":
+		print("quoiquoubeh")
+		
+
+
+if a == "calculator":
+	test()
 	
 	
 if a == "time":
