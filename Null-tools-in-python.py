@@ -235,6 +235,15 @@ def simplecode():
 
 
 
+if a == "simplecode":
+	simplecode()
+
+
+if a == "anime":
+	anime()
+
+
+
 if a == "calculator":
 	calculator()
 	
