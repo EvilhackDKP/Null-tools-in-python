@@ -194,6 +194,34 @@ def calculator():
 		print("quoiquoubeh")
 		
 
+def anime():
+
+	anime =input("quelle est ton anime pref ? ")
+
+	if anime =="one piece":
+		print("ok.j'aime pas trop mais si t'aime les pirates ok")
+	
+	if anime =="bleach":
+		print("mouaiiiiis")
+	
+	if anime =="detective conan":
+		print("trooooop bien ")
+	
+	
+	if anime =="naruto":
+		print("classique")
+	
+	if anime =="dragon ball":
+		print("cooool")
+	
+	if anime =="hunter x hunter":
+		print("mereum vs netero une pepite et kurapika vs Uvogin troooop 					badass")
+	
+	
+	if anime =="demon slayer":
+		print("soufle du soleil 4eme mouvement:azure sans nuage (je crois)")
+
+
 
 if a == "calculator":
 	calculator()
