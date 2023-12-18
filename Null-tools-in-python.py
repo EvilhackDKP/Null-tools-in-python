@@ -2,6 +2,7 @@ from hashlib import sha256
 import random
 import os
 import webbrowser
+import time
 os.system("clear") 
 print("\033[1;32") 
 
@@ -284,6 +285,45 @@ def xor():
             	b = bytes ([cˆkey[j]])
             	f_sortie.write(b)
            	 i = i + 1
+
+
+
+
+
+def multi_annebsx():
+	def annbisex():
+		print("\033[1;34mSCAN ANNÉE BISEXTILE")
+		annee = input("Saisissez une annee : ") 
+		annee = int(annee)
+ 
+		if annee % 400 == 0 or (annee % 4 == 0 and annee % 100 != 0):
+          		print("L'annee saisie est bissextile.")
+		else:
+         		print("L'annee saisie n'est pas bissextile.")
+
+	def multi():
+		os.system("")
+		os.system("clear")
+
+		print("\033[1;34mMULTIPLICATION")
+
+		n = input("un facteur s'il vous plait: ")
+
+		i = input("le deuxieme facteur: ")
+
+		print(int(n)*int(i))
+
+	def display():
+	  annbisex()
+	  time.sleep(2)
+	  multi()
+  
+  
+	display()
+  
+  
+if a == "multi_annbsx":
+	multi_annbsx()
 
 
 if a == "xor":
