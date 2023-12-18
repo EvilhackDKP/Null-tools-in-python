@@ -247,9 +247,8 @@ def shifoumi():
 
 	while score_joueur < manches and score_ordi < manches:
   		choix_joueur = input("Que jouez vous ? Tapez 'pierre', 'papier' ou 'ciseaux' ")
-
-  	while choix_joueur not in options:
-    		input("Choix invalide ! Choisissez pierre, papier ou ciseaux (sans les 					guillemets)")
+	while choix_joueur not in options:
+    		input("Choix invalide ! Choisissez pierre, papier ou ciseaux (sans les guillemets)")
 
   	choix_ordi = random.choice(options)
 
