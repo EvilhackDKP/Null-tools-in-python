@@ -270,7 +270,7 @@ def simplecode():
 
 
 
-def xor():
+'''def xor():
 	entree = input("entree le nom du fichier a chiffrer : ")
 	sortie = input("entree le nom du fichier final :")
 	key = input("entree la clé :")
@@ -283,7 +283,7 @@ def xor():
            	 j = i % len(key)
             	b = bytes ([cˆkey[j]])
             	f_sortie.write(b)
-           	 i = i + 1
+           	 i = i + 1''' 
 
 
 
