@@ -6,4 +6,4 @@ J'apprends l'anglais mais tout doucement. Merci de me donnez des conseils à l'a
 J'aimerais les conseil en python
 Merci 
 
-sh requirement.txt
+zsh requirement.sh
