@@ -254,7 +254,7 @@ def shifoumi():
 
 	if choix_joueur == choix_ordi:
    	 print("Égalité. Relancez le script pour rejouer")
-  	elif choix_joueur == "pierre" and choix_ordi == "ciseaux" \
+	elif choix_joueur == "pierre" and choix_ordi == "ciseaux" \
  	 or choix_joueur == "papier" and choix_ordi == "pierre" \
 	  or choix_joueur == "ciseaux" and choix_ordi == "papier":
  	   print("Vous remportez la manche,", choix_joueur, "bat" , choix_ordi)
