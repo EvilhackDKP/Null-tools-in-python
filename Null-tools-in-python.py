@@ -252,7 +252,7 @@ def shifoumi():
 
 	choix_ordi = random.choice(options)
 
-  	if choix_joueur == choix_ordi:
+	if choix_joueur == choix_ordi:
    	 print("Égalité. Relancez le script pour rejouer")
   	elif choix_joueur == "pierre" and choix_ordi == "ciseaux" \
  	 or choix_joueur == "papier" and choix_ordi == "pierre" \
