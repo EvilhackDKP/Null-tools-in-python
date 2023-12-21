@@ -250,7 +250,7 @@ def shifoumi():
 	while choix_joueur not in options:
     		input("Choix invalide ! Choisissez pierre, papier ou ciseaux (sans les guillemets)")
 
-  	choix_ordi = random.choice(options)
+	choix_ordi = random.choice(options)
 
   	if choix_joueur == choix_ordi:
    	 print("Égalité. Relancez le script pour rejouer")
