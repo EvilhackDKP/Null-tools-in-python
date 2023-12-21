@@ -258,7 +258,7 @@ def shifoumi():
  	 or choix_joueur == "papier" and choix_ordi == "pierre" \
 	  or choix_joueur == "ciseaux" and choix_ordi == "papier":
  	   print("Vous remportez la manche,", choix_joueur, "bat" , choix_ordi)
-					score_joueur += 1
+						score_joueur += 1
 	  else:
   	  print("L'ordinateur gagne la manche," , choix_ordi, "bat" , choix_joueur)
 	    score_ordi += 1
