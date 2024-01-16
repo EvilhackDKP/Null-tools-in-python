@@ -3,6 +3,7 @@ import random
 import os
 import webbrowser
 import time
+from time import sleep
 os.system("clear") 
 print("\033[1;32") 
 
@@ -163,7 +164,7 @@ def calculator():
 	
 	
 	if a =="whoami !?@#€[]!?":
-		print("je suis... duc_kalipython !")
+		print("je suis... [Kxf.word]!")
 	
 	
 	if a =="python3":
@@ -314,7 +315,7 @@ def multi_annebsx():
 
 	def display():
 	  annbisex()
-	  time.sleep(2)
+	  sleep(2)
 	  multi()
   
   
