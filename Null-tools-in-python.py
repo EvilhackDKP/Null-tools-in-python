@@ -376,3 +376,6 @@ if a =="devilx":
 	
 if a =="open link":
 	open_lien()
+
+if "sus" in a:
+	print("chelouuu") 
