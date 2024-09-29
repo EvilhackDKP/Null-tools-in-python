@@ -1,8 +1,8 @@
 #!/bin/zsh
-pkg upgrade
-pkg update 
-pkg install git
-pkg install python-pip
+apt upgrade
+apt update 
+apt install git
+apt install python-pip
 pip install pystyle 
 pip install os
 cd Null-tools-in-python 
